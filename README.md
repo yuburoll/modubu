@@ -4,6 +4,8 @@ semi-staggered(half row staggered, half column staggered) 38 key split keyboard 
 
 Started idea on my old sketch and [KeeNoard](https://github.com/yuburoll/KeeNoard), finished the idea thanks to the great [DYA Dash](https://cormoran.github.io/dya-dash-keyboard/).
 
+credit for 우주신제품(wujusinjepum), the anonymous who named this keyboard.
+
 ## Preparation
 
 - 2x rp2040 zero (boards formly created by waveshare) (Approx. 4-8$)
