@@ -15,8 +15,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS,        KC_RCTL,        KC_INS,         KC_CAPS,        KC_PGUP,        KC_PGDN,        KC_HOME,        KC_END,         KC_LEFT,          KC_DOWN,      KC_RGHT,        KC_RSFT, 
                                                         KC_TRNS,        KC_TRNS,        KC_TRNS,        TO(3),          KC_TRNS,        KC_TRNS),
     [2] = LAYOUT_semistag_16_3(
-                KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,                        MS_WHLU,        MS_WHLL,        MS_UP,          MS_WHLR,        KC_NO, 
-                KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,                        MS_WHLD,        MS_LEFT,        MS_DOWN,        MS_RGHT,        KC_TRNS, 
+                KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,                        MS_WHLU,        MS_WHLL,        MS_UP,          MS_WHLR,        MS_BTN4, 
+                KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,                        MS_WHLD,        MS_LEFT,        MS_DOWN,        MS_RGHT,        MS_BTN5, 
         KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_Y,           KC_APP,         KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
                                                         KC_TRNS,        KC_TRNS,        KC_TRNS,        MS_BTN1,        MS_BTN2,        MS_BTN3),
     [3] = LAYOUT_semistag_16_3(
@@ -29,17 +29,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 enum combos {
   OP_BSPC,
   NUM_BSPC,
+  IO_DEL,
+  NUM_DEL,
   LSCLN_ENT,
   NUM_ENT,
   SPCTG_L3,
   QW_ESC,
   AS_TAB,
-  JKL_MOUSE,
-  LDR_MOUSE
+  JKL_MSON,
+  LDR_MSOFF,
+  WD4_MSOFF,
+  R5_MSOFF
 };
 
 const uint16_t PROGMEM op_combo[] = {KC_O, KC_P, COMBO_END};
 const uint16_t PROGMEM num90_combo[] = {KC_9, KC_0, COMBO_END};
+const uint16_t PROGMEM io_combo[] = {KC_I, KC_O, COMBO_END};
+const uint16_t PROGMEM num89_combo[] = {KC_8, KC_9, COMBO_END};
 const uint16_t PROGMEM lscln_combo[] = {KC_L, KC_SCLN, COMBO_END};
 const uint16_t PROGMEM numscln_combo[] = {KC_UP, KC_SCLN, COMBO_END};
 const uint16_t PROGMEM spctg_combo[] = {KC_SPC, TG(1), COMBO_END};
@@ -47,17 +53,23 @@ const uint16_t PROGMEM qw_combo[] = {KC_Q, KC_W, COMBO_END};
 const uint16_t PROGMEM as_combo[] = {KC_A, KC_S, COMBO_END};
 const uint16_t PROGMEM jkl_combo[] = {KC_J, KC_K, KC_L, COMBO_END};
 const uint16_t PROGMEM ldr_combo[] = {MS_LEFT, MS_DOWN, MS_RGHT, COMBO_END};
+const uint16_t PROGMEM wd4_combo[] = {MS_WHLD, MS_BTN4, COMBO_END};
+const uint16_t PROGMEM r5_combo[] = {MS_RGHT, MS_BTN5, COMBO_END};
 
 combo_t key_combos[] = {
   [OP_BSPC] = COMBO(op_combo, KC_BSPC),
   [NUM_BSPC] = COMBO(num90_combo, KC_BSPC),
+  [IO_DEL] = COMBO(io_combo, KC_BSPC),
+  [NUM_DEL] = COMBO(num89_combo, KC_BSPC),
   [LSCLN_ENT] = COMBO(lscln_combo, KC_ENT),
   [NUM_ENT] = COMBO(numscln_combo, KC_ENT),
   [SPCTG_L3] = COMBO(spctg_combo, TO(3)),
   [QW_ESC] = COMBO(qw_combo, KC_ESC),
   [AS_TAB] = COMBO(as_combo, KC_TAB),
-  [JKL_MOUSE] = COMBO(jkl_combo, TO(2)),
-  [LDR_MOUSE] = COMBO(ldr_combo, TO(0))
+  [JKL_MSON] = COMBO(jkl_combo, TO(2)),
+  [LDR_MSOFF] = COMBO(ldr_combo, TO(0)),
+  [WD4_MSOFF] = COMBO(wd4_combo, TO(0)),
+  [R5_MSOFF] = COMBO(r5_combo, TO(0))
 };
 
 bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
