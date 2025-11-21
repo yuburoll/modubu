@@ -38,7 +38,7 @@ enum combos {
   AS_TAB,
   JKL_MSON,
   LDR_MSOFF,
-  WD4_MSOFF,
+  WR4_MSOFF,
   R5_MSOFF
 };
 
@@ -53,7 +53,7 @@ const uint16_t PROGMEM qw_combo[] = {KC_Q, KC_W, COMBO_END};
 const uint16_t PROGMEM as_combo[] = {KC_A, KC_S, COMBO_END};
 const uint16_t PROGMEM jkl_combo[] = {KC_J, KC_K, KC_L, COMBO_END};
 const uint16_t PROGMEM ldr_combo[] = {MS_LEFT, MS_DOWN, MS_RGHT, COMBO_END};
-const uint16_t PROGMEM wd4_combo[] = {MS_WHLD, MS_BTN4, COMBO_END};
+const uint16_t PROGMEM wr4_combo[] = {MS_WHLR, MS_BTN4, COMBO_END};
 const uint16_t PROGMEM r5_combo[] = {MS_RGHT, MS_BTN5, COMBO_END};
 
 combo_t key_combos[] = {
@@ -68,7 +68,7 @@ combo_t key_combos[] = {
   [AS_TAB] = COMBO(as_combo, KC_TAB),
   [JKL_MSON] = COMBO(jkl_combo, TO(2)),
   [LDR_MSOFF] = COMBO(ldr_combo, TO(0)),
-  [WD4_MSOFF] = COMBO(wd4_combo, TO(0)),
+  [WR4_MSOFF] = COMBO(wr4_combo, TO(0)),
   [R5_MSOFF] = COMBO(r5_combo, TO(0))
 };
 
