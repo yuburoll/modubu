@@ -10,14 +10,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT,        KC_Z,           KC_X,           KC_C,           KC_V,           KC_B,           KC_B,           KC_N,           KC_M,           KC_COMM,        KC_DOT,         RSFT_T(KC_SLSH), 
                                                         KC_LCTL,        KC_LALT,        KC_SPC,         LT(1,KC_SPC),   LT(3,KC_RALT),  KC_LGUI),
     [1] = LAYOUT_semistag_16_3(
-                KC_NO,          KC_HOME,        KC_UP,          KC_END,         KC_PGUP,                        KC_LBRC,        KC_RBRC,        KC_7,           KC_8,           KC_9, 
-                KC_INS,         KC_LEFT,        KC_DOWN,        KC_RIGHT,       KC_PGDN,                        KC_MINS,        KC_EQL,         KC_4,           KC_5,           KC_6, 
-        KC_TRNS,        KC_RCTL,        KC_GRV,         KC_SCLN,        KC_QUOT,        KC_BSLS,        KC_DOT,         KC_0,           KC_1,           KC_2,           KC_3,           KC_TRNS, 
+                KC_PGUP,        KC_HOME,        KC_UP,          KC_END,         KC_INS,                         KC_LBRC,        KC_RBRC,        KC_7,           KC_8,           KC_9, 
+                KC_PGDN,        KC_LEFT,        KC_DOWN,        KC_RIGHT,       KC_BSLS,                        KC_MINS,        KC_EQL,         KC_4,           KC_5,           KC_6, 
+        KC_TRNS,        KC_RCTL,        KC_GRV,         KC_SCLN,        KC_QUOT,        KC_COMM,        KC_DOT,         KC_0,           KC_1,           KC_2,           KC_3,           RSFT_T(KC_SLSH), 
                                                         KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS),
     [2] = LAYOUT_semistag_16_3(
                 KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,                        MS_WHLU,        MS_WHLL,        MS_UP,          MS_WHLR,        MS_BTN4, 
                 KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,                        MS_WHLD,        MS_LEFT,        MS_DOWN,        MS_RGHT,        MS_BTN5, 
-        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_Y,           KC_APP,         KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
+        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_Y,           KC_APP,         KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_RSFT,
                                                         KC_TRNS,        KC_TRNS,        KC_TRNS,        MS_BTN1,        MS_BTN2,        MS_BTN3),
     [3] = LAYOUT_semistag_16_3(
                 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,                          KC_PSCR,        KC_F12,         KC_F7,          KC_F8,          KC_F9, 
@@ -59,8 +59,8 @@ const uint16_t PROGMEM mr5_combo[] = {MS_RGHT, MS_BTN5, COMBO_END};
 combo_t key_combos[] = {
   [OP_BSPC] = COMBO(op_combo, KC_BSPC),
   [NUM_BSPC] = COMBO(num89_combo, KC_BSPC),
-  [IO_DEL] = COMBO(io_combo, KC_BSPC),
-  [NUM_DEL] = COMBO(num78_combo, KC_BSPC),
+  [IO_DEL] = COMBO(io_combo, KC_DEL),
+  [NUM_DEL] = COMBO(num78_combo, KC_DEL),
   [LSCLN_ENT] = COMBO(lscln_combo, KC_ENT),
   [NUM_ENT] = COMBO(num56_combo, KC_ENT),
   [QW_TAB] = COMBO(qw_combo, KC_TAB),
