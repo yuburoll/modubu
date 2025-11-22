@@ -2,7 +2,9 @@
 
 # modubu
 
-semi-staggered(half row staggered, half column staggered) 38 key split keyboard under 100x100mm pcb
+semi-staggered(half row staggered, half column staggered) 38 key split keyboard under 100x100mm PCB
+
+The name "modubu" is tofu square in Korean.
 
 Started idea on my old sketch and [KeeNoard](https://github.com/yuburoll/KeeNoard), finished and polished the idea thanks to the great [DYA Dash](https://cormoran.github.io/dya-dash-keyboard/).
 
