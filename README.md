@@ -30,7 +30,7 @@ credit for 우주신제품(wujusinjepum), the anonymous who named this keyboard.
 
 - 1x 1/8(3.5mm) TRRS cable (Approx. 2$, may TRS cable can take the place.)
 
-- 38x Hotswap SMD (Approx. 4$)
+- 38x MX Hotswap Sockets (Approx. 4$)
 
 - 38x MX Keyswitches & Keycaps (Maybe this cost varies too much. 10$ on average)
 
