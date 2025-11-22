@@ -32,7 +32,7 @@ credit for 우주신제품(wujusinjepum), the anonymous who named this keyboard.
 
 - 38x Hotswap SMD (Approx. 4$)
 
-- 38x Keyswitches & Keycaps (Maybe this cost varies too much. 10$ on average)
+- 38x MX Keyswitches & Keycaps (Maybe this cost varies too much. 10$ on average)
 
 Approx. 37-41$(w/o shipping cost) needed to build one.
 
