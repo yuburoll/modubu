@@ -8,7 +8,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,                           KC_Y,           KC_U,           KC_I,           KC_O,           KC_P, 
                 KC_A,           KC_S,           KC_D,           KC_F,           KC_G,                           KC_H,           KC_J,           KC_K,           KC_L,           KC_SCLN, 
         KC_LSFT,        KC_Z,           KC_X,           KC_C,           KC_V,           KC_B,           KC_B,           KC_N,           KC_M,           KC_COMM,        KC_DOT,         RSFT_T(KC_SLSH), 
-                                                        KC_LCTL,        KC_LALT,        KC_SPC,         KC_SPC,         LT(3,TG(1)),    LGUI_T(KC_RALT)),
+                                                        KC_LCTL,        KC_LALT,        KC_SPC,         LT(1,KC_SPC),   MO(3),          LGUI_T(KC_RALT)),
     [1] = LAYOUT_semistag_16_3(
                 KC_NO,          KC_HOME,        KC_UP,          KC_END,         KC_PGUP,                        KC_LBRC,        KC_RBRC,        KC_7,           KC_8,           KC_9, 
                 KC_INS,         KC_LEFT,        KC_DOWN,        KC_RIGHT,       KC_PGDN,                        KC_MINS,        KC_EQL,         KC_4,           KC_5,           KC_6, 
@@ -18,7 +18,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,                        MS_WHLU,        MS_WHLL,        MS_UP,          MS_WHLR,        MS_BTN4, 
                 KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,                        MS_WHLD,        MS_LEFT,        MS_DOWN,        MS_RGHT,        MS_BTN5, 
         KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_Y,           KC_APP,         KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
-                                                        KC_TRNS,        KC_TRNS,        KC_TRNS,        MS_BTN1,        LT(3,MS_BTN2),  MS_BTN3),
+                                                        KC_TRNS,        KC_TRNS,        KC_TRNS,        MS_BTN1,        MS_BTN2,        MS_BTN3),
     [3] = LAYOUT_semistag_16_3(
                 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,                          KC_PSCR,        KC_F12,         KC_F7,          KC_F8,          KC_F9, 
                 RM_NEXT,        RM_VALU,        RM_SATU,        RM_HUEU,        RM_TOGG,                        KC_SCRL,        KC_F11,         KC_F4,          KC_F5,          KC_F6,  
@@ -74,7 +74,9 @@ combo_t key_combos[] = {
 
 bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
-        case LT(2, KC_SCLN):
+        case LT(1,KC_SPC):
+            return true;
+        case MO(3):
             return true;
         default:
             return false;
