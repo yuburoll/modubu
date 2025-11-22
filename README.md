@@ -1,3 +1,5 @@
+![modubuImage](images/modubu16x9.jpg)
+
 # modubu
 
 semi-staggered(half row staggered, half column staggered) 38 key split keyboard under 100x100mm pcb
@@ -36,9 +38,11 @@ Approx. 37-41$(w/o shipping cost) needed to build one.
 
 work in progress. sorry!
 
+You can see the images in the folder, which uploaded for build guides. Especially you may see how to solder the controller board, because this uses surface mounting by castelated pins.
+
 This uses [qmk](https://qmk.fm/) to build the firmware. Copy "modubu" folder which is in "firmware/qmk" directory to "qmk_firmware\keyboards" folder, and build it via qmk msys.
 
-Or, simply flash uf2 in "uf2Examples" folder by changing rp2040 zero in dfu mode, which can be executed by holding boot button while plugging in usb c. Vial versions are work in progress.
+Or, simply flash uf2 in "uf2Examples" folder by changing rp2040 zero in dfu mode, which can be executed by holding boot button while plugging in usb c. Vial versions are also prepared.
 
 
 
