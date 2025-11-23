@@ -2,6 +2,8 @@
 
 # modubu
 
+[한국어 설명은 이곳에서 보실 수 있습니다](README_ko.md)
+
 semi-staggered(half row staggered, half column staggered) 38 key split keyboard under 100x100mm PCB
 
 The name "modubu" is tofu square in Korean.
@@ -20,7 +22,7 @@ credit for 우주신제품(wujusinjepum), the anonymous who named this keyboard.
 
 - 2x modubu PCB Boards (5 boards are 2$ on JLC w/o shipping cost)
 
-- 1x printed case sets, which you want to make it (Approx. 12$ if you buy printed one on JLC)
+- 1x printed case sets, 6 parts total (Approx. 12$ if you buy printed one on JLC)
 
 - 38x diodes (Approx. 1$)
 
@@ -73,3 +75,5 @@ all codes follow MIT license.
 all designs and the hardware board follow CC BY-SA 4.0 license.
 
 If you want to make a commercial product, it would be appreciated if you sponsor some bucks for me.
+
+![modubuGubber](images/modubuGubber.png)
