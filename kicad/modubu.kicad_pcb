@@ -30984,6 +30984,18 @@
 			)
 		)
 	)
+	(gr_text "LEFT SIDE\n"
+		(at 85 93 0)
+		(layer "F.SilkS")
+		(uuid "b8897e31-ab83-429c-a033-7247e38d5735")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "Jump\nWhen\nBACK\nSIDE"
 		(at 122 129.6 0)
 		(layer "F.SilkS")
@@ -31135,6 +31147,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.2)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "RIGHT SIDE\n"
+		(at 85 93 -0)
+		(layer "B.SilkS")
+		(uuid "95be292e-182e-4d51-bbf8-c6872e75b794")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify mirror)
 		)
