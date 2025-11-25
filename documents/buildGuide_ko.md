@@ -70,11 +70,11 @@ SMD 다이오드를 사용할 땐 다이오드 위치의 한 쪽 패드에 납�
 
 ## 커넥터 납땜하기 & 점프하기
 
-![backsideJump0](../images/modubuBacksideJump0.jpg)
+![backsideJump0](../images/modubuBackSideJump0.jpg)
 
 각 손의 윗면 부분에 커넥터가 오도록 TRRS 커넥터를 배치하고, 뒷면에서 납땜합니다. 납땜할 때 마스킹 테이프 등으로 고정해두면 좋습니다.
 
-![backsideJump1](../images/modubuBacksideJump1.jpg)
+![backsideJump1](../images/modubuBackSideJump1.jpg)
 
 이 면을 보고 있는 상태에서, "JUMP when BACK SIDE"라는 문구 위의 점퍼 두 점을 땜납으로 점프합니다. 반대쪽 면은 하지 않습니다.
 
