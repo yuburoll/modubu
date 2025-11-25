@@ -5,6 +5,7 @@ modubu의 빌드 가이드입니다.
 ### 추가 자료
 
 [**준비물과 구매처 가이드**](preparation_ko.md)
+
 [**납땜 팁**](solderingTip_ko.md)
 
 ## 다이오드 납땜하기
