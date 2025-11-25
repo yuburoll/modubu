@@ -37,6 +37,8 @@ https://www.nologo.tech/ 이 회사의 rp2040 supermini도 사용할 수 있을 
 
 ## 다이오드 38개
 
+납땜이 익숙하지 않다면 THT 다이오드를 쓰시는 걸 추천합니다. 니퍼도 준비해 주세요.
+
 - 국내(THT): https://smartstore.naver.com/ic11401/products/618129765
  
 - 국내(SMD): https://smartstore.naver.com/sagaklabs/products/9090469658
