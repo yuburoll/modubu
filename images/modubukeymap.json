@@ -1,0 +1,179 @@
+[
+  {
+    "name": "modubuKeymap"
+  },
+  [
+    {
+      "x": 2.5,
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000\n#0e19cc",
+      "fa": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "3#\n\n◇\n\n\n\n\n\n\nE\nF3",
+    "4$\n\n◇\n\n\n\n\n\n\nR\nF4",
+    "5%\n\n◇\n\n\n\n\n\n\nT\nF5",
+    {
+      "x": 2
+    },
+    "6^\n\nWh△\n\n\n\n\n\n\nY\nF6",
+    "7&\n\nWh◁\n\n\n\n\n\n\nU\nF7",
+    "8*\n\nM▲\n\n\n\n\n\n\nI\nF8"
+  ],
+  [
+    {
+      "y": -0.8,
+      "x": 1.5
+    },
+    "2@\n\n◇\n\n\n\n\n\n\nW\nF2",
+    {
+      "x": 8
+    },
+    "9(\n\nWh▷\n\n\n\n\n\n\nO\nF9"
+  ],
+  [
+    {
+      "y": -0.7,
+      "x": 0.25,
+      "w": 1.25
+    },
+    "1!\n\n◇\n\n\n\n\n\n\nQ\nF1",
+    {
+      "x": 10,
+      "w": 1.25
+    },
+    "0)\n\n\n\n\n\n\n\n\nP\nF10"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2.5
+    },
+    "=+\n\n◇\n\n\n\n\n\n\nD",
+    {
+      "n": true
+    },
+    "' \"\n\n◇\n\n\n\n\n\n\nF",
+    "\\ |\n\n◇\n\n\n\n\n\n\nG",
+    {
+      "x": 2
+    },
+    "↑\n\nWh▽\n\n\n\n\n\n\nH\nPrint",
+    {
+      "n": true
+    },
+    "↑\n\nM◀\n\n\n\n\n\n\nJ\nScrLk",
+    "[ {\n\nM▼\n\n\n\n\n\n\nK\nBreak"
+  ],
+  [
+    {
+      "y": -0.8,
+      "x": 1.5
+    },
+    "-_\n\n◇\n\n\n\n\n\n\nS\nIns",
+    {
+      "x": 8
+    },
+    "] }\n\nM▶\n\n\n\n\n\n\nL\nF11"
+  ],
+  [
+    {
+      "y": -0.7000000000000002,
+      "x": 0.25,
+      "w": 1.25
+    },
+    "`~\n\n◇\n\n\n\n\n\n\nA\nCapsLock",
+    {
+      "x": 10,
+      "t": "#f00009\n\n#666912\n\n#666912\n\n\n\n\n#000000\n#0e19cc",
+      "w": 1.25
+    },
+    "◇\n\n\n\nMouse\n\n\n\n\n; :\nF12"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 3,
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000\n#0e19cc"
+    },
+    "End\n\n◇\n\n\n\n\n\n\nC",
+    "PgUp\n\n◇\n\n\n\n\n\n\nV\nReboot",
+    "PgDn\n\nY\n\n\n\n\n\n\nB\nBoot/dfu",
+    {
+      "x": 1
+    },
+    "←\n\n\n\n\n\n\n\n\nB",
+    "↓\n\n\n\n\n\n\n\n\nN",
+    "→\n\n\n\n\n\n\n\n\nM"
+  ],
+  [
+    {
+      "y": -0.7999999999999998,
+      "x": 2
+    },
+    "Home\n\n◇\n\n\n\n\n\n\nX",
+    {
+      "x": 7
+    },
+    "◇\n\n\n\n\n\n\n\n\n,<"
+  ],
+  [
+    {
+      "y": -0.7000000000000002
+    },
+    "◇\n\n◇\n\n\n\n\n\n\nLshift\n◇",
+    "RCtl\n\n◇\n\n\n\n\n\n\nZ\nRgui",
+    {
+      "x": 9
+    },
+    "◇\n\n\n\n\n\n\n\n\n.>",
+    "◇\n\n\n\nRShift\n\n\n\n\n/?\nRShift"
+  ],
+  [
+    {
+      "x": 2.5,
+      "t": "#f00009\n\n#666912\n\n#000000\n\n\n\n\n#000000\n#0e19cc"
+    },
+    "◇\n\n◇\n\nLAlt\n\n\n\n\nEsc\n◇",
+    {
+      "x": 6
+    },
+    "Del\n\nBtn3\n\nLGUI\n\n\n\n\nRAlt\n◇"
+  ],
+  [
+    {
+      "y": -0.8999999999999999,
+      "x": 3.5
+    },
+    "◇\n\n◇\n\nLCtrl\n\n\n\n\nTab\n◇",
+    {
+      "x": 4,
+      "t": "#f00009\n\n#666912\n\n#0e19cc\n\n\n\n\n#000000\n#0e19cc"
+    },
+    "◇\n\nBtn2\n\nFn\n\n\n\n\nBspc"
+  ],
+  [
+    {
+      "y": -0.8999999999999995,
+      "x": 4.5,
+      "t": "#f00009\n\n#666912\n\n#f00009\n\n\n\n\n#000000\n#0e19cc",
+      "w2": 1.5
+    },
+    "◇\n\n◇\n\nNum\n\n\n\n\nSpace\n◇",
+    {
+      "x": 1.5,
+      "w2": 1.5
+    },
+    "◇\n\nBtn1\n\nNum\n\n\n\n\nEnter\n◇"
+  ]
+]

@@ -38,7 +38,13 @@ credit for 우주신제품(wujusinjepum), the anonymous who named this keyboard.
 
 Approx. 37-41$(w/o shipping cost) needed to build one.
 
+## Default Keymap
 
+![keymapImage](images/modubukeymap.png)
+
+Holding the key triggers front legend.
+
+Thre is three layers - Num, Mouse, Fn - which can be noticed by the color legends. ◇ Means Transparent; which uses base keymap.
 
 ## Build Guides
 
