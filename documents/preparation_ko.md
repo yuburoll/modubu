@@ -12,7 +12,7 @@
 
 - JLCPCB에서 맡기면 2달러에 제조, 1.5달러에 배송합니다. https://jlcpcb.com/
 
-- [거버 폴더](../gubber) 안의 [modubu-gubber.zip](../gubber/modubu-gubber.zip)을 다운로드 받아 사이트에 올려주시면 됩니다.
+- [거버 폴더](../gubber) 안의 [modubu-gubber.zip](../gubber/hotswap/modubu-gubber.zip)을 다운로드 받아 사이트에 올려주시면 됩니다.
 
 ## 3d 프린팅된 케이스, 총 6파츠
 
