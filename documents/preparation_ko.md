@@ -10,7 +10,7 @@
 
 - JLCPCB에서 맡기면 2달러에 제조, 1.5달러에 배송합니다. https://jlcpcb.com/
 
-- [거버 폴더](../gubber) 안의 modubu-gubber.zip을 다운로드 받아 사이트에 올려주시면 됩니다.
+- [거버 폴더](../gubber) 안의 [modubu-gubber.zip](../gubber/modubu-gubber.zip)을 다운로드 받아 사이트에 올려주시면 됩니다.
 
 ## 3d 프린팅된 케이스, 총 6파츠
 
@@ -18,7 +18,9 @@
 
 - 아니면, 직접 fdm 3d 프린팅해서 만들거나 fdm 출력대행을 찾아서 프린팅해 저렴하게 구성해도 좋습니다.
 
-- [케이스 폴더](../case/stl) 안의 modubu-case.zip을 다운로드 받아 출력소에 전달해주시면 됩니다.
+- [케이스 폴더](../case/stl) 안의 [modubu-case.zip](../case/stl/modubu-case.zip)을 다운로드 받아 출력소에 전달해주시면 됩니다.
+
+customization 하위 폴더 안에 메쉬 백플레이트도 제공하고 있습니다.(FDM으로 이걸 인쇄하는 경우, 인쇄 속도가 2배정도 차이가 나서 좀 더 비쌀 수도 있습니다.)
 
 ## rp2040 zero 보드 2개
 
