@@ -44,7 +44,7 @@ https://www.nologo.tech/ 이 회사의 rp2040 supermini도 사용할 수 있을 
  
 - 국내1: https://smartstore.naver.com/sagaklabs/products/9090497445
 
-- 국내2: https://m.smartstore.naver.com/nana-inc/products/8240806382
+- 국내2: https://smartstore.naver.com/nana-inc/products/8240806382
 
 ## 다이오드 38개
 
