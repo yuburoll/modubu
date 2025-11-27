@@ -32733,6 +32733,14 @@
 		(uuid "b9104d5d-e62c-4b8e-8073-efba083f954d")
 	)
 	(via
+		(at 56.5 137.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 12)
+		(uuid "b935b89e-459e-44b2-ab17-fa8c8897b5e7")
+	)
+	(via
 		(at 124.75 105.5)
 		(size 0.6)
 		(drill 0.3)
