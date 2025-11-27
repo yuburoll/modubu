@@ -468,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sundubu.kicad_pro",
+    "filename": "modubuSolder.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "sundubu-gubber/",
+      "plot": "modubuSolder-gubber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
