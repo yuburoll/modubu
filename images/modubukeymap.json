@@ -26,9 +26,9 @@
     {
       "x": 2
     },
-    "6^\n\nWh△\n\n\n\n\n\n\nY\nF6",
-    "7&\n\nWh◁\n\n\n\n\n\n\nU\nF7",
-    "8*\n\nM▲\n\n\n\n\n\n\nI\nF8"
+    "6^\n\n◇\n\n\n\n\n\n\nY\nF6",
+    "7&\n\n◇\n\n\n\n\n\n\nU\nF7",
+    "8*\n\n◇\n\n\n\n\n\n\nI\nF8"
   ],
   [
     {
@@ -39,7 +39,7 @@
     {
       "x": 8
     },
-    "9(\n\nWh▷\n\n\n\n\n\n\nO\nF9"
+    "9(\n\n◇\n\n\n\n\n\n\nO\nF9"
   ],
   [
     {
@@ -52,12 +52,13 @@
       "x": 10,
       "w": 1.25
     },
-    "0)\n\n\n\n\n\n\n\n\nP\nF10"
+    "0)\n\nL2Lock\n\n\n\n\n\n\nP\nF10"
   ],
   [
     {
       "y": -0.5,
-      "x": 2.5
+      "x": 2.5,
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000"
     },
     "=+\n\n◇\n\n\n\n\n\n\nD",
     {
@@ -66,14 +67,15 @@
     "' \"\n\n◇\n\n\n\n\n\n\nF",
     "\\ |\n\n◇\n\n\n\n\n\n\nG",
     {
-      "x": 2
+      "x": 2,
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000\n#0e19cc"
     },
-    "↑\n\nWh▽\n\n\n\n\n\n\nH\nPrint",
+    "↑\n\nWh△\n\n\n\n\n\n\nH\nPrint",
     {
       "n": true
     },
-    "↑\n\nM◀\n\n\n\n\n\n\nJ\nScrLk",
-    "[ {\n\nM▼\n\n\n\n\n\n\nK\nBreak"
+    "→\n\nWh▷\n\n\n\n\n\n\nJ\nScrLk",
+    "[ {\n\nM▲\n\n\n\n\n\n\nK\nBreak"
   ],
   [
     {
@@ -104,17 +106,21 @@
     {
       "y": -0.5,
       "x": 3,
-      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000\n#0e19cc"
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000"
     },
     "End\n\n◇\n\n\n\n\n\n\nC",
-    "PgUp\n\n◇\n\n\n\n\n\n\nV\nReboot",
-    "PgDn\n\nY\n\n\n\n\n\n\nB\nBoot/dfu",
     {
-      "x": 1
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000\n#0e19cc"
     },
-    "←\n\n\n\n\n\n\n\n\nB",
-    "↓\n\n\n\n\n\n\n\n\nN",
-    "→\n\n\n\n\n\n\n\n\nM"
+    "PgUp\n\n◇\n\n\n\n\n\n\nV\nReboot",
+    "PgDn\n\n◇\n\n\n\n\n\n\nB\nBoot/dfu",
+    {
+      "x": 1,
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000"
+    },
+    "←\n\nWh◁\n\n\n\n\n\n\nB",
+    "↓\n\nWh▽\n\n\n\n\n\n\nN",
+    "Del\n\nM◀\n\n\n\n\n\n\nM"
   ],
   [
     {
@@ -125,18 +131,23 @@
     {
       "x": 7
     },
-    "◇\n\n\n\n\n\n\n\n\n,<"
+    "◇\n\nM▼\n\n\n\n\n\n\n,<"
   ],
   [
     {
-      "y": -0.7000000000000002
+      "y": -0.7000000000000002,
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000\n#0e19cc"
     },
     "◇\n\n◇\n\n\n\n\n\n\nLshift\n◇",
     "RCtl\n\n◇\n\n\n\n\n\n\nZ\nRgui",
     {
-      "x": 9
+      "x": 9,
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000"
     },
-    "◇\n\n\n\n\n\n\n\n\n.>",
+    "◇\n\nApp\n\n\n\n\n\n\n.>",
+    {
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000\n#0e19cc"
+    },
     "◇\n\n\n\nRShift\n\n\n\n\n/?\nRShift"
   ],
   [
@@ -158,7 +169,7 @@
     "◇\n\n◇\n\nLCtrl\n\n\n\n\nTab\n◇",
     {
       "x": 4,
-      "t": "#f00009\n\n#666912\n\n#0e19cc\n\n\n\n\n#000000\n#0e19cc"
+      "t": "#f00009\n\n#666912\n\n#0e19cc\n\n\n\n\n#000000"
     },
     "◇\n\nBtn2\n\nFn\n\n\n\n\nBspc"
   ],
@@ -166,7 +177,7 @@
     {
       "y": -0.8999999999999995,
       "x": 4.5,
-      "t": "#f00009\n\n#666912\n\n#f00009\n\n\n\n\n#000000\n#0e19cc",
+      "t": "#f00009\n\n#666912\n\n\n\n\n\n\n#000000\n#0e19cc",
       "w2": 1.5
     },
     "◇\n\n◇\n\nNum\n\n\n\n\nSpace\n◇",
